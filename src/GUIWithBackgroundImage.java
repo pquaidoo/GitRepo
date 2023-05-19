@@ -15,16 +15,16 @@ class GUIWithBackgroundImage {
             @Override
             protected void paintComponent(Graphics g) {
                 // Load the background image
-                Image backgroundImage = new ImageIcon("src\\space.jpg").getImage();
+                Image backgroundImage = new ImageIcon("src\\space1.jpg").getImage();
 
 
                 // Draw the background image
                 g.drawImage(backgroundImage, 0, -140, null);
             }
         };
-//        protected void paintComponent(Graphics g) {
+//        protected void paintComponent(Graphics g) {l
 //            // Load the background image
-//            Image backgroundImage = new ImageIcon("src\\Planets.jpg").getImage();
+//            Image backgroundImage = new ImageIcon("src\\Planets1.jpg").getImage();
 //
 //
 //            // Draw the background image
